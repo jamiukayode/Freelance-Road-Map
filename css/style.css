@@ -1,0 +1,1083 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsla(210, 49%, 64%, 0.567);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: hsla(197, 50%, 69%, 0.61);  */
+}
+
+
+.content-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.step1-container {
+    /* padding: top, right, bottom, left  */
+    padding: 5% 8%;
+}
+
+.step1-container h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step1-container p {
+    font-size: 1.2rem;
+}
+
+
+/* |||  Type of Freelancers  |||
+
+tof means Type of Freelancers */
+
+.tof-h1 {
+    margin-bottom: 15px;
+    padding-left: 8%;
+}
+
+.tof-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 950px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.tof-col {
+    background: hsla(197, 47%, 63%, 0.723);
+    padding: 5%;
+    /* margin-top,right, bottom, left */
+    margin: 0 5px 20px 0;
+    border-radius: 10px;
+    position: relative;
+    width: 95%;
+    height: 48%;
+}
+
+.tof-col p {
+    margin-top: 10px;
+    word-spacing: 2px;
+}
+
+.tof-col p:nth-child(3) {
+    margin-top: 8px;
+}
+
+.tof-col>.price {
+    position: absolute;
+    bottom: -5%;
+    left: 65%;
+    background-color: goldenrod;
+    padding: 5px 15px 5px 15px;
+    /* padding-top,right, bottom, left */
+    border-radius: 5px;
+    width: 150px;
+}
+
+
+
+/* ||| Web development fundamental ||| */
+.wdf-h1 {
+    margin-top: 40px;
+    padding-left: 8%;
+
+}
+
+.wdf-container {
+    display: flex;
+    width: 950px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wdf-columns {
+    margin: 15px;
+}
+
+.wdf-col {
+    display: flex;
+
+}
+
+
+.wdf-col b {
+    font-size: 0.9rem;
+
+}
+
+.wdf-col span {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h6 {
+    display: flex;
+}
+
+.wdf-col-child {
+    margin: 20px;
+    justify-content: flex-start;
+}
+
+.wdf-column1 {
+    width: 70%;
+}
+
+.wdf-column2 {
+    background-color: goldenrod;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    width: 25%;
+    height: 20%;
+    border-radius: 5px;
+    word-spacing: 2px;
+    place-content: center;
+}
+
+.df-h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+/* Design Fundamentals */
+
+.df-text-container {
+    padding: 5% 8%;
+}
+
+.df-text-container h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.df-text-container p {
+    font-size: 1.2rem;
+}
+
+
+.df-container {
+    display: flex;
+    padding: 1% 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.df-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.df-first-column {
+    width: 50%;
+}
+
+.df-second-column {
+    width: 30%;
+}
+
+.df-columns span {
+    margin-left: 0.4rem;
+}
+
+
+
+
+/*Wordpress
+ 20/06/2025 */
+
+
+.wp-container {
+    display: flex;
+    padding: 1% 5% 5% 8%;
+    justify-content: space-between;
+}
+
+.wp-container-h1 {
+    margin-bottom: 15px;
+    padding-left: 8%;
+}
+
+.wp-container p {
+    font-size: 1.2rem;
+}
+
+
+.wp-columns {
+    justify-content: space-between;
+}
+
+.wp-first-column {
+    width: 60%;
+}
+
+.wp-second-column {
+    width: 20%;
+}
+
+
+
+/* PHP */
+.php-container-h1 {
+    margin-bottom: 15px;
+    padding-left: 8%;
+}
+
+.php-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5% 5% 8%;
+}
+
+.php-columns {
+    margin: 0 auto;
+}
+
+.php-columns p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 5% 10% 0 10%;
+}
+
+
+/* Jamstack Technologies */
+
+.jt-text-container {
+    padding: 5% 8%;
+}
+
+.jt-text-container h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.jt-text-container p {
+    font-size: 1.2rem;
+}
+
+
+.jt-container {
+    display: flex;
+    padding: 0 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.jt-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.jt-first-column {
+    width: 50%;
+}
+
+.jt-second-column {
+    width: 30%;
+}
+
+.jt-columns span {
+    margin-left: 0.4rem;
+}
+
+
+
+/* Step 2: Kick Start your Business  */
+.step2-container {
+    padding: 5% 8%;
+}
+
+.step2-container h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step2-container p {
+    font-size: 1.2rem;
+}
+
+
+
+/* Business Set-up */
+
+.bs-container {
+    padding: 5% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bs-columns {
+    width: 80%;
+}
+
+.bs-second-column {
+    border-left: 3px solid goldenrod;
+    padding-left: 20px;
+}
+
+.bs-columns h2 {
+    margin-bottom: 10px;
+}
+
+.bs-columns p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 2px solid red;
+}
+
+
+
+/* Business Branding */
+
+.bb-text-container {
+    padding: 5% 8%;
+}
+
+.bb-text-container h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.bb-container {
+    display: flex;
+    padding: 0 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.bb-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.bb-first-column {
+    width: 50%;
+}
+
+.bb-second-column {
+    width: 30%;
+}
+
+
+
+/* Websites & Portfolio */
+
+.webp-text-container {
+    padding: 5% 8%;
+}
+
+.webp-text-container h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.webp-text-container p {
+    font-size: 1.2rem;
+}
+
+
+.webp-container {
+    display: flex;
+    padding: 1% 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.webp-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.webp-first-column {
+    width: 50%;
+}
+
+.webp-second-column {
+    width: 30%;
+}
+
+.webp-hr {
+    border: 1.5px solid black;
+    width: 80%;
+    margin-left: 8%;
+}
+
+
+
+
+/* Social Media and Web presence */
+.sm-container {
+    display: flex;
+    padding: 2% 8%;
+    justify-content: space-between;
+}
+
+.sm-container-h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.sm-columns {
+    margin: 20px;
+}
+
+.sm-columns p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.sm-first-column {
+    width: 30%;
+}
+
+.sm-second-column {
+    width: 30%;
+}
+
+
+
+/* Step 3: Establish your freelance Presence */
+.step3-container {
+    padding: 5% 8%;
+}
+
+.step3-container h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step3-container p {
+    font-size: 1.2rem;
+}
+
+
+
+/* Freelance Websites */
+
+.fw-text-container {
+    padding: 5% 8%;
+}
+
+.fw-text-container h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fw-text-container p {
+    font-size: 1.2rem;
+}
+
+
+.fw-container {
+    display: flex;
+    padding: 0 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.fw-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.fw-first-column {
+    width: 30%;
+}
+
+.fw-second-column {
+    width: 50%;
+}
+
+.fw-columns span {
+    margin-left: 0.4rem;
+}
+
+
+
+/* Optimize Your Profile */
+
+.op-text-container {
+    padding: 5% 8%;
+}
+
+.op-text-container h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.op-text-container p {
+    font-size: 1.2rem;
+}
+
+
+.op-container {
+    display: flex;
+    padding: 0 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.op-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.op-first-column {
+    width: 40%;
+}
+
+.op-second-column {
+    width: 40%;
+}
+
+.op-columns span {
+    margin-left: 0.4rem;
+}
+
+
+/* Set Your Pricing */
+
+.sp-text-container {
+    padding: 5% 8%;
+}
+
+.sp-text-container h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sp-text-container p {
+    font-size: 1.2rem;
+}
+
+
+.sp-container {
+    display: flex;
+    padding: 1% 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.sp-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.sp-first-column {
+    width: 50%;
+}
+
+.sp-second-column {
+    width: 30%;
+}
+
+.sp-columns span {
+    margin-left: 0.4rem;
+}
+
+/* price */
+.sp-price {
+    padding: 0 8% 0 8%;
+}
+
+.sp-price p {
+    font-size: 1;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 3% 5px 3%;
+    width: 52%;
+}
+
+
+
+/* Apply for jobs */
+.afj-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5% 5% 8%;
+    background-color: hsla(205, 91%, 50%, 0.425);
+    color: white;
+}
+
+.afj-container h2 {
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.afj-column {
+    margin: 0 auto;
+}
+
+.afj-column p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+/* Proposal */
+
+.pp-text-container {
+    padding: 5% 8%;
+}
+
+.pp-text-container h2 {
+    font-weight: bold;
+}
+
+
+.pp-container {
+    display: flex;
+    padding: 0 5% 0% 8%;
+    justify-content: space-between;
+}
+
+
+.pp-columns p {
+    font-size: 1.2rem;
+}
+
+.pp-first-column {
+    width: 40%;
+}
+
+.pp-second-column {
+    width: 30%;
+}
+
+
+
+/* Other ways to get Clients */
+
+.fcl-text-container {
+    padding: 5% 8%;
+}
+
+.fcl-text-container h2 {
+    font-weight: bold;
+}
+
+.fcl-text-container p {
+    font-size: 1.2rem;
+}
+
+
+.fcl-container {
+    display: flex;
+    padding: 0 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.fcl-columns p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.fcl-first-column {
+    width: 40%;
+}
+
+.fcl-second-column {
+    width: 40%;
+}
+
+.fcl-columns span {
+    margin-left: 0.4rem;
+}
+
+
+
+/* Step 4: Your Workflow */
+.step4-container {
+    padding: 5% 8%;
+}
+
+.step4-container h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step4-container p {
+    font-size: 1.2rem;
+}
+
+
+
+/* Discovery */
+
+.disc-text-container {
+    padding: 5% 8%;
+}
+
+.disc-text-container h2 {
+    font-weight: bold;
+}
+
+
+.disc-container {
+    display: flex;
+    padding: 0 5% 0% 8%;
+    justify-content: space-between;
+}
+
+
+.disc-columns p {
+    font-size: 1.2rem;
+}
+
+.disc-first-column {
+    width: 40%;
+}
+
+.disc-second-column {
+    width: 30%;
+}
+
+/* 23/06/2025 */
+/* Proposal & Contract Delivery */
+
+.pcd-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5% 5% 8%;
+    background-color: hsla(205, 91%, 50%, 0.425);
+    color: white;
+}
+
+.pcd-container h2 {
+    text-align: center;
+    margin: 25px 0 15px 0;
+}
+
+.pcd-column {
+    margin: 0 auto;
+}
+
+.pcd-column p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+
+
+/* Invoicing & Payment */
+
+.ip-container {
+    display: flex;
+    padding: 0 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.ip-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.ip-columns h2 {
+    padding: 25% 0 0 0;
+}
+
+.ip-first-column {
+    width: 40%;
+}
+
+.ip-second-column {
+    width: 40%;
+}
+
+.ip-columns span {
+    margin-left: 0.4rem;
+}
+
+
+
+/* Communication & Updates */
+.cu-text-container {
+    padding: 5% 8%;
+}
+
+.cu-text-container h2 {
+    font-weight: bold;
+}
+
+
+.cu-container {
+    display: flex;
+    padding: 0 5% 0% 8%;
+    justify-content: space-between;
+}
+
+
+.cu-columns p {
+    font-size: 1.2rem;
+}
+
+.cu-first-column {
+    width: 40%;
+}
+
+.cu-second-column {
+    width: 30%;
+}
+
+
+/* productivity tools */
+
+.pt-text-container {
+    padding: 5% 8%;
+}
+
+.pt-text-container h2 {
+    font-weight: bold;
+}
+
+.pt-text-container p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+
+.pt-container {
+    display: flex;
+    padding: 0 5% 0% 8%;
+    justify-content: space-between;
+}
+
+
+.pt-column p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.pt-column {
+    width: 70%;
+}
+
+
+/* Step 5: Ongoing Work */
+.step5-container {
+    padding: 5% 8%;
+}
+
+.step5-container h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step5-container p {
+    font-size: 1.2rem;
+}
+
+
+
+
+/* Ongoing Offering Services */
+
+.oso-text-container {
+    padding: 5% 8%;
+}
+
+.oso-text-container h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.oso-text-container p {
+    font-size: 1.2rem;
+}
+
+
+.oso-container {
+    display: flex;
+    padding: 0 5% 5% 8%;
+    justify-content: space-between;
+}
+
+
+.oso-columns p {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.oso-first-column {
+    width: 40%;
+}
+
+.oso-second-column {
+    width: 40%;
+}
+
+.oso-columns span {
+    margin-left: 0.4rem;
+}
+
+
+
+/* 25/05/2025
+Upselling Client */
+
+.uc-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5% 5% 8%;
+    background-color: hsla(205, 91%, 50%, 0.425);
+}
+
+.uc-container h2 {
+    text-align: center;
+    margin: 25px 0 15px 0;
+    color: white;
+}
+
+.uc-column {
+    margin: 0 auto;
+}
+
+.uc-column p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+.uc-second-column {
+    margin-top: 15px;
+    background-color: aliceblue;
+    border-radius: 2px;
+    padding: 1% 5% 1% 5%;
+}
+
+.uc-second-column p {
+    color: black;
+}
+
+
+/* Step 6 OutSourcing & Scaling */
+.step6-container {
+    padding: 5% 8%;
+}
+
+.step6-container h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step6-container p {
+    font-size: 1.2rem;
+}
+
+
+
+/* Outsoucing Help */
+.oh-text-container {
+    padding: 5% 8%;
+}
+
+.oh-text-container h2 {
+    font-weight: bold;
+}
+
+
+.oh-container {
+    display: flex;
+    padding: 0 5% 0% 8%;
+    justify-content: space-between;
+}
+
+
+.oh-columns p {
+    font-size: 1.2rem;
+}
+
+.oh-first-column {
+    width: 40%;
+}
+
+.oh-second-column {
+    width: 30%;
+}
+
+
+
+/* Hiring in House */
+
+.hh-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 5%;
+    background-color: black;
+    color: white;
+}
+
+.hh-container .bg {
+    background-color: rgb(45, 46, 46);
+    padding-bottom: 15px;
+    border-radius: 3px;
+}
+
+.hh-container h2 {
+    text-align: center;
+    margin: 25px 0 15px 0;
+    color: white;
+}
+
+.hh-column {
+    margin: 0 auto;
+}
+
+.hh-column p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+
+
+
+/*Scaling Your Business */
+.syb-text-container {
+    padding: 5% 8%;
+}
+
+.syb-text-container h2 {
+    font-weight: bold;
+}
+
+
+.syb-container {
+    display: flex;
+    padding: 0 5% 0% 8%;
+    justify-content: space-between;
+}
+
+
+.syb-columns p {
+    font-size: 1.2rem;
+}
+
+.syb-first-column {
+    width: 40%;
+}
+
+.syb-second-column {
+    width: 30%;
+}
