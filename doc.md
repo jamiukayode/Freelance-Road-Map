@@ -69,3 +69,28 @@ images ---> Google or just remove the background
 pushing it to github 
 Hosting
 Content Manipulating ---- Ai
+
+
+
+Day 9 26/6/2025
+pushing it to github 
+Hosting on vercel.
+
+
+Day 10  28/6/2025
+images ---> Google or just remove the background
+
+
+
+
+Icon
+
+<!-- This example uses <i> element with:
+1. the `fa-solid` style class for solid style
+2. the `user` icon with the `fa-` prefix -->
+<i class="fa-solid fa-user"></i>
+
+<!-- Or you can use a <span> element, with classes applied in the same way -->
+<span class="fa-solid fa-user"></span>
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
