@@ -72,25 +72,32 @@ Content Manipulating ---- Ai
 
 
 
-Day 9 26/6/2025
+Day 9 -- 26/6/2025
 pushing it to github 
 Hosting on vercel.
 
 
-Day 10  28/6/2025
+Day 10 --  28/6/2025
 images ---> Google or just remove the background
 
 
+Day 11 -- 29/06/2025
+Replaced all images 
 
 
+Day 12 --30/6/2025
 Icon
-
-<!-- This example uses <i> element with:
-1. the `fa-solid` style class for solid style
-2. the `user` icon with the `fa-` prefix -->
-<i class="fa-solid fa-user"></i>
-
+<!-- This example uses <i> element with.
 <!-- Or you can use a <span> element, with classes applied in the same way -->
 <span class="fa-solid fa-user"></span>
+<i class="fa-solid fa-user"></i>
 
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+
+<!-- Font Awesome Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+
+Day  1/7/2025
+updated github after making some changes. 
+
+Remains: 
+Content update & Responsiveness
